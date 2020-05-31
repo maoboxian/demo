@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>雪梨在线</title>
+  <style type="text/css">
+*{ 
+      padding: 0;
+      margin: 0;
+    }
+    a{
+      text-decoration: none;
+    }
+    ul{
+      list-style: none;
+    }
+    .xueli{
+      margin-left: 100px;
+      margin-top: 33px;
+      margin-bottom: 29px;
+      width:170px;
+      height:39px;
+      font-size:40px;
+      font-family:Microsoft YaHei;
+      font-weight:bold;
+      color:rgba(0,164,255,1);
+      float: left;
+    }
+    .nav{
+      margin:42px 0 0px 71px;
+      height:18px;
+      font-size:18px;
+      font-family:Microsoft YaHei;
+      font-weight:400;
+      float: left;
+    }
+    .nav>a{
+      display: block;
+      margin-right: 30px;
+      padding: 10px 8px;
+      color:rgba(5,5,5,1);
+      float: left;
+    }
+    .nav>a:hover{
+      border-bottom: 2px solid rgba(0,164,255,1);}
+    
+      .form{
+        margin-top:31px;
+        float: right;
+        width:411px;
+        height:40px;
+      }
+      .search{
+        float: left;
+        
+        border: 1px solid #00A3FF;
+      }
+      .submit{
+        width:19px;
+        height:19px;
+        font-size:20px;
+        font-family:FontAwesome;
+        font-weight:400;
+        color:rgba(255,255,255,1);
+        line-height:22px;
+        float: left;
+        background:#00A3FF url() no-repeat center center;
+
+      }
+      .banner{
+        margin: 0 auto;
+        top:101px;
+        width: 1920px;
+        height: 420px;
+        background-color: rgba(27,3,107,1);
+        position: relative;
+      }
+     
+      .banner1 img{
+        width:1200px;
+        height:420px;
+        position: absolute;
+        top: 0px;
+        left: 195px;
+        border: 1px white dashed;
+      }
+    .wenzi1 {
+      top: 101px;
+      left: 10%;
+     width:190px;
+     height:420px;
+     background:rgba(0,0,0,1);
+     opacity:0.5;
+     position: absolute;
+    }
+    .two{
+      top: 529px;
+      left: 10%;
+      margin: 0 auto;
+      width:1200px;
+      height:60px;
+     background:rgba(255,255,255,1);
+     box-shadow:0px 2px 2px 0px rgba(118,118,118,0.2);
+     position: absolute;
+    }
+    .wenzi2{
+      
+      display: inline-block;
+      margin-left: 34px;
+      height:18px;
+      width: 98px;
+      margin-top: 21px;
+      border-right:1px solid rgba(191,191,191,1);
+      font-size:16px;
+      font-family:Microsoft YaHei;
+      font-weight:bold;
+      color:black;
+      float: left;
+    }
+    .wenzi2:hover{
+      color:rgba(0,164,255,1);
+    }
+   .three{
+    top: 626px;
+    left: 10%;
+    width:80px;
+    height:19px;
+    font-size:20px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(72,72,72,1);
+    font-decoration: none;
+    position: absolute;
+   }
+   .four{
+    top: 666px;
+    left: 10%;
+    position: absolute;
+   }
+   .img{
+    margin-left:7.5px;
+    margin-top:7.5px ;
+    border:1px  rgba(118,118,118,0.2) solid;
+    width: 228px;
+    height:270px;
+    float: left;
+   }
+   .five{
+    top: 1258px;
+    left: 10%;
+    width: 140px;
+    height:19px;
+    font-size:20px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(72,72,72,1);
+
+    position: absolute;
+   }
+   .red{
+    margin: 0 auto;
+    top: 1298px;
+    left: 10%;
+    position: absolute;
+    
+   }
+   .img2{
+    margin-left:7.5px;
+    margin-top:7.5px ;
+    width:228px;
+    height:270px;
+    background:rgba(255,255,255,1);
+    border: 1px  rgba(118,118,118,0.2) solid;
+    float: left;
+   }
+   .six{
+    top: 1603px;
+    left: 10%;
+    width:80px;
+    height:19px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(72,72,72,1);
+    position: absolute;
+   }
+   .blue{
+   
+    top: 1655px;
+    left: 10%;
+    position: absolute;
+   }
+      .img4{
+    width:471px;
+    height:320px;
+  }
+  .lv{
+    top: 1655px;
+    left: 45%;
+    position: absolute;
+  }
+      .img3{
+    width:228px;
+    height:320px;
+    background:rgba(255,255,255,1);
+    margin-left:7.5px;
+    float: left;
+   }
+   .eight{
+    margin: 0 auto;
+    top: 800px;
+    left:10%;
+    position: absolute;
+   }
+  .word1{
+    width:228px;
+    height:270px;
+    margin-left: 15px;
+    margin-top:30px; 
+    float: left;
+    
+  }
+  .word2{
+    top:49px;
+    left: 16px;
+    width:175px;
+    height:14px;
+    position: relative;
+  }
+  .abc{
+    top: 198px;
+    width: 228px;
+    height: 122px;
+    background:rgba(0,0,0,1);
+    opacity:0.5;
+    position: absolute;
+  }
+  .end{
+    top: 2048px;
+    width:1917px;
+    height:417px;
+    background:rgba(255,255,255,1);
+    position: absolute;
+  }
+  .abc1{
+    top: 124px;
+    left: 380px;
+    width:144px;
+height:36px;
+font-size:36px;
+font-family:Microsoft YaHei;
+font-weight:bold;
+color:rgba(0,164,255,1);
+line-height:21px;
+position: absolute;
+  }
+  .abc2{
+    top:195px;
+    left: 382px;
+    position: absolute;
+    width:372px;
+height:12px;
+font-size:12px;
+font-family:SimSun;
+font-weight:400;
+color:rgba(102,102,102,1);
+line-height:18px;
+  }
+  .abc3{
+    top:240px;
+    left: 382px;
+    position: absolute;
+    width:120px;
+height:36px;
+border: 1px solid rgba(0,164,255,1);
+  }
+  .abc4
+  {
+    top:10px;
+    left: 27px;
+    position: absolute;
+    width:63px;
+height:15px;
+font-size:16px;
+font-family:Microsoft YaHei;
+font-weight:400;
+color:rgba(0,164,255,1);
+line-height:18px;
+  }
+  .abc5{
+    top:129px;
+    left: 926px;
+    position: absolute;
+
+  }
+  .abc6{
+    top:129px;
+    left: 1126px;
+    position: absolute;
+
+  }
+  .abc7{
+    top:129px;
+    left: 1326px;
+    position: absolute;
+
+  }
+
+  </style>
+    
+
+</head>
+<body>
+<div>
+     
+    <div style="background-position: center center;">
+      <div class="xueli clear">雪梨在线</div>
+      <div class="nav">
+        <a href="#">首页</a>
+        <a href="#">课程</a>
+        <a href="#">职业规划</a>
+        </div>
+      <form class="form clear">
+        <input type="text" placeholder="请输入关键词" class="search"/>
+        <input type="button" class="submit" value=" " />
+      </form>
+    
+      
+      </div>
+   <div class="banner">
+     <div class="banner1">
+       <img src="d:/images/雪梨在线/banner.png"  alt="" />
+     </div>
+  
+   </div>
+  <div class="wenzi1 clear">
+     <ul >
+          <li><a href="#" style="color:rgba(0,180,255,1); padding-top: 5px;padding-left: 20px;">前端开发      ></a></li>
+          <li><a href="#" style="color:white;padding-left: 20px;">后端开发      ></a></li>
+          <li><a href="#" style="color:white;padding-left: 20px;">移动开发      ></a></li>
+          <li><a href="#" style="color:white;padding-left: 20px;">人工智能      ></a></li>
+          <li><a href="#" style="color:white;padding-left: 20px;">商业预测      ></a></li>
+          <li><a href="#" style="color:white;padding-left: 20px;">云计算&大数据  ></a></li>
+          <li><a href="#" style="color:white;padding-left: 20px;">运维&从测试    ></a></li>
+          <li><a href="#" style="color:white;padding-left: 20px;">UI设计        ></a></li>
+          <li><a href="#" style="color:white;padding-left: 20px;">产品          ></a></li>
+     </ul>
+     </div>
+     <div class="two">
+      <a href="#" class="wenzi2" style="color:rgba(0,164,255,1)">精品推荐</a>
+      <a href="#" class="wenzi2">JQuery</a>
+      <a href="#" class="wenzi2">Spark</a>
+      <a href="#" class="wenzi2">MySQL</a>
+      <a href="#" class="wenzi2">JavaWeb</a>
+      <a href="#" class="wenzi2">MySQL</a>
+      <a href="#" class="wenzi2">JavaWeb</a>
+      <a href="#" style="height:18px;font-size:16px;font-family:Microsoft YaHei;font-weight:bold;color:rgba(0,164,255,1);margin-right: 61px;margin-top:21px;float: right;" >修改兴趣</a>
+     </div>
+     <div class="three">
+       精品推荐
+     </div>
+     <div class="four">
+     <div class="img"><img src="D:\images\雪梨在线\图层 133@2x.png" alt=" " style="width:228px;height:155px;"></div>
+     <div class="img"><img src="D:\images\雪梨在线\图层 135@2x.png" alt=" " style="width:228px;height:155px;"></div>
+     <div class="img"><img src="D:\images\雪梨在线\图层 136@2x.png" alt=" " style="width:228px;height:155px;"></div>
+     <div class="img"><img src="D:\images\雪梨在线\图层 137@2x(1).png" alt=" " style="width:228px;height:155px;"></div>
+     <div class="img"><img src="D:\images\雪梨在线\图层 137@2x(1).png" alt=" " style="width:228px;height:155px;"></div>
+     <div class="img"><img src="D:\images\雪梨在线\图层 133@2x.png" alt=" " style="width:228px;height:155px;"></div>
+     <div class="img"><img src="D:\images\雪梨在线\图层 135@2x.png" alt=" " style="width:228px;height:155px;"></div>
+     <div class="img"><img src="D:\images\雪梨在线\图层 136@2x.png" alt=" " style="width:228px;height:155px;"></div>
+     <div class="img"><img src="D:\images\雪梨在线\图层 137@2x(1).png" alt=" " style="width:228px;height:155px;"></div>
+     <div class="img"><img src="D:\images\雪梨在线\图层 137@2x(1).png" alt=" " style="width:228px;height:155px;"></div>
+     </div>
+     <div class="five">前端开发工程师</div>
+     <div class="red">
+     <div class="img2"><img src="D:\images\雪梨在线\图层 142@2x.png " alt="" style="width:228px;height:155px;"/><div class="word2"><a href="" style="font-size:14px;font-family:Microsoft YaHei;font-weight:400;color:rgba(5,5,5,1);line-height:20px;">微软人工智能-数据分析平台</a>
+</div></div>
+     <div class="img2"><img src="D:\images\雪梨在线\图层 143@2x.png " alt="" style="width:228px;height:155px;"/><div class="word2"><a href="" style="font-size:14px;font-family:Microsoft YaHei;font-weight:400;color:rgba(5,5,5,1);line-height:20px;">Unity Profiler入门</a></div></div>
+     <div class="img2"><img src="D:\images\雪梨在线\图层 144@2x.png " alt="" style="width:228px;height:155px;"/><div class="word2"><a href="" style="font-size:14px;font-family:Microsoft YaHei;font-weight:400;color:rgba(5,5,5,1);line-height:20px;">Cocos2d-x 引擎源码中的纹理优化</a></div></div>
+     <div class="img2"><img src="D:\images\雪梨在线\图层 146@2x.png " alt="" style="width:228px;height:155px;"/><div class="word2"><a href="" style="font-size:14px;font-family:Microsoft YaHei;font-weight:400;color:rgba(5,5,5,1);line-height:20px;">Kami2首页界面切换效果</a></div></div>
+     <div class="img2"><img src="D:\images\雪梨在线\图层 145@2x.png " alt="" style="width:228px;height:155px;"/><div class="word2"><a href="" style="font-size:14px;font-family:Microsoft YaHei;font-weight:400;color:rgba(5,5,5,1);line-height:20px;">Android Hybrid APP开发实战 H5+原生！</a></div></div>
+     </div>
+     <div class="six">牛人推荐</div>
+     <div class="blue">
+      <div class="img4"><img src="D:\images\雪梨在线\图层 149@2x.png" alt="" style=" height:320px; width:471px; " /></div>
+      </div>
+      <div class="lv">
+       <div class="img3"><img src="D:\images\雪梨在线\20172124182104355@2x.png" alt="" style=" height:320px; width:228px; " /><div class="abc"><p style="font-size:18px;font-family:Microsoft YaHei;font-weight:bold;color:rgba(255,255,255,1);line-height:20px;">文老师 大数据</p><p style="font-size:12px;font-family:Microsoft YaHei;font-weight:400;color:rgba(255,255,255,1);line-height:20px;">高级互联网软件工程师，曾担任某物流公司CRM开发团队TL。多年JAVAEE、大数据领域研发……</p></div></div>
+       <div class="img3"><img src="D:\images\雪梨在线\20154025104058710@2x.png" alt="" style=" height:320px; width:228px; " /><div class="abc"><p style="ont-size:18px;font-family:Microsoft YaHei;font-weight:bold;color:rgba(255,255,255,1);line-height:20px;">汪老师 前端</p><p style="font-size:12px;font-family:Microsoft YaHei;font-weight:400;color:rgba(255,255,255,1);line-height:20px;">高级软件架构师，全栈开发，多年大型项目管理经验。对Web Components、Node.js……</p></div></div>
+      <div class="img3"><img src="D:\images\雪梨在线\20154325104317144 (1)@2x.png" alt="" style=" height:320px; width:228px; " /><div class="abc"><p style="ont-size:18px;font-family:Microsoft YaHei;font-weight:bold;color:rgba(255,255,255,1);line-height:20px;">江老师 前端</p><p style="font-size:12px;font-family:Microsoft YaHei;font-weight:400;color:rgba(255,255,255,1);line-height:20px;">多年软件开发经验和教学经验，精通html，css，js,asp.net等编程语言和数据库系统……</p></div></div>
+      </div>
+      </div>
+      <div class="eight">
+        <div class="word1"><a href=" " style="width:185px;height:34px;font-size:14px;font-family:Microsoft YaHei;font-weight:400;color:rgba(5,5,5,1);line-height:20px;">  Think PHP 5.0 博客系统实战项目演练 </a></div>
+        <div class="word1"><a href=" " style="width:185px;height:34px;font-size:14px;font-family:Microsoft YaHei;font-weight:400;color:rgba(5,5,5,1);line-height:20px;">  Android 网络图片加载框架详解 </a></div>
+        <div class="word1"><a href=" " style="width:185px;height:34px;font-size:14px;font-family:Microsoft YaHei;font-weight:400;color:rgba(5,5,5,1);line-height:20px;"> Angular 2 最新框架+主流技术+项目实战 </a></div>
+        <div class="word1"><a href=" " style="width:185px;height:34px;font-size:14px;font-family:Microsoft YaHei;font-weight:400;color:rgba(5,5,5,1);line-height:20px;">  Android Hybrid APP开发实战 H5+原生！ </a></div>
+        <div class="word1"><a href=" " style="width:185px;height:34px;font-size:14px;font-family:Microsoft YaHei;font-weight:400;color:rgba(5,5,5,1);line-height:20px;">  Android Hybrid APP开发实战 H5+原生！ </a></div>
+        <div class="word1"><a href=" " style="width:185px;height:34px;font-size:14px;font-family:Microsoft YaHei;font-weight:400;color:rgba(5,5,5,1);line-height:20px;">  Think PHP 5.0 博客系统实战项目演练 </a></div>
+        <div class="word1"><a href=" " style="width:185px;height:34px;font-size:14px;font-family:Microsoft YaHei;font-weight:400;color:rgba(5,5,5,1);line-height:20px;">  Android 网络图片加载框架详解 </a></div>
+        <div class="word1"><a href=" " style="width:185px;height:34px;font-size:14px;font-family:Microsoft YaHei;font-weight:400;color:rgba(5,5,5,1);line-height:20px;">  Angular 2 最新框架+主流技术+项目实战 </a></div>
+        <div class="word1"><a href=" " style="width:185px;height:34px;font-size:14px;font-family:Microsoft YaHei;font-weight:400;color:rgba(5,5,5,1);line-height:20px;">  Android Hybrid APP开发实战 H5+原生！ </a></div>
+        <div class="word1"><a href=" " style="width:185px;height:34px;font-size:14px;font-family:Microsoft YaHei;font-weight:400;color:rgba(5,5,5,1);line-height:20px;">  Android Hybrid APP开发实战 H5+原生！ </a></div>
+      </div>
+      <div class="end">
+      <div class="abc1">雪梨在线</div>
+      <div class="abc2">致力于普及中国最好的教育,与中国一流大学和机构合作提供在线课程。</div>
+      <div class="abc3"><div class="abc4">下载APP</div></div>
+      <div class="abc5">
+        <ul>
+          <li style="font-size:16px;font-family:Microsoft YaHei;font-weight:400;color:rgba(51,51,51,1);line-height:21px;">关于雪梨网</li>
+           <li style="font-size:12px;font-family:SimSun;font-weight:400;color:rgba(51,51,51,1);line-height:21px;">关于</li>
+            <li style="font-size:12px;font-family:SimSun;font-weight:400;color:rgba(51,51,51,1);line-height:21px;">管理团队</li>
+             <li style="font-size:12px;font-family:SimSun;font-weight:400;color:rgba(51,51,51,1);line-height:21px;">工作机会</li>
+              <li style="font-size:12px;font-family:SimSun;font-weight:400;color:rgba(51,51,51,1);line-height:21px;">客户服务</li>
+               <li style="font-size:12px;font-family:SimSun;font-weight:400;color:rgba(51,51,51,1);line-height:21px;"> 帮助<</li>
+        </ul>
+      </div>
+       <div class="abc6">
+        <ul>
+          <li style="font-size:16px;font-family:Microsoft YaHei;font-weight:400;color:rgba(51,51,51,1);line-height:21px;">新手指南</li>
+           <li style="font-size:12px;font-family:SimSun;font-weight:400;color:rgba(51,51,51,1);line-height:21px;">如何注册</li>
+            <li style="font-size:12px;font-family:SimSun;font-weight:400;color:rgba(51,51,51,1);line-height:21px;">如何选课</li>
+             <li style="font-size:12px;font-family:SimSun;font-weight:400;color:rgba(51,51,51,1);line-height:21px;">如何拿到毕业证</li>
+              <li style="font-size:12px;font-family:SimSun;font-weight:400;color:rgba(51,51,51,1);line-height:21px;">学分是什么</li>
+               <li style="font-size:12px;font-family:SimSun;font-weight:400;color:rgba(51,51,51,1);line-height:21px;"> 考试未通过怎么办</li>
+        </ul>
+      </div>
+       <div class="abc7">
+        <ul>
+          <li style="font-size:16px;font-family:Microsoft YaHei;font-weight:400;color:rgba(51,51,51,1);line-height:21px;">合作伙伴</li>
+           <li style="font-size:12px;font-family:SimSun;font-weight:400;color:rgba(51,51,51,1);line-height:21px;">合作机构</li>
+            <li style="font-size:12px;font-family:SimSun;font-weight:400;color:rgba(51,51,51,1);line-height:21px;">合作导师</li>
+             
+      </div>
+        
+      </div>
+        
+</body>
+</html>
+
+       
+      
+</body>
+
+
+</html>
